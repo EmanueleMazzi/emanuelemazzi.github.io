@@ -1,4 +1,4 @@
-modifica 16:17
+modifica 16:20
 <html>
 <head>
     <style>
@@ -77,7 +77,7 @@ modifica 16:17
 
    <script>
         // Initialize a new WebSocket connection to the server
-        const socket = new WebSocket('http://03b7-93-35-219-181.ngrok-free.app');
+        const socket = new WebSocket('http://03b7-93-35-219-181.ngrok-free.app/ws');
 
         // Connection opened
         socket.addEventListener('open', (event) => {
