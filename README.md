@@ -77,7 +77,7 @@
 
    <script>
         // Initialize a new WebSocket connection to the server
-        const socket = new WebSocket('ws://localhost:1865/ws');
+        const socket = new WebSocket('ws://https://66b4-93-35-219-181.ngrok-free.app:1865/ws');
 
         // Connection opened
         socket.addEventListener('open', (event) => {
