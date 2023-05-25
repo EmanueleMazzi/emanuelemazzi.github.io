@@ -77,7 +77,7 @@ modifica 16:35
 
    <script>
         // Initialize a new WebSocket connection to the server
-        const socket = new WebSocket('https://d4a8-93-35-219-181.ngrok-free.app/ws');
+        const socket = new WebSocket('wss://8949-93-35-219-181.ngrok-free.app/ws');
 
         // Connection opened
         socket.addEventListener('open', (event) => {
