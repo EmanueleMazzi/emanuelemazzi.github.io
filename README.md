@@ -77,7 +77,7 @@ Sono stato allenato con tutte le FAQ del sito di OVS: mettimi alla prova!
 
    <script>
         // Initialize a new WebSocket connection to the server
-        const socket = new WebSocket('wss://926b-93-35-219-181.ngrok-free.app/ws');
+        const socket = new WebSocket('wss://8c54-93-35-219-181.ngrok-free.app/ws');
 
         // Connection opened
         socket.addEventListener('open', (event) => {
